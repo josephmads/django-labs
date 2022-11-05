@@ -1,4 +1,4 @@
-### About The Django Twitter Clone Project
+# About The Django Twitter Clone Project
 
 This is an application that models the basic functionality of Twitter.
 

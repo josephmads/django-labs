@@ -52,6 +52,8 @@ def profile(request, username):
 
         # TODO: this is one area where you need to fix form submission
         if request.method == 'POST':
+            
+            djeet = Djeet(body=request.POST['djeet'])            
 
             djeet.user = request.user
             djeet.save()
